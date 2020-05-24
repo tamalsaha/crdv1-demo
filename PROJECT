@@ -1,3 +1,7 @@
 domain: my.domain
 repo: github.com/tamalsaha/crdv1-demo
+resources:
+- group: webapp
+  kind: Guestbook
+  version: v1
 version: "2"
